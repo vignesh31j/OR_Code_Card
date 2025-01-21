@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+
+  @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Caveat+Brush&family=DM+Serif+Text:ital@0;1&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Funnel+Display:wght@300..800&family=Karla:ital,wght@0,200..800;1,200..800&family=Kumbh+Sans:wght@100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Offside&family=Outfit:wght@100..900&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Varela+Round&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: hsl(212, 45%, 89%);
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: "Outfit", serif;
+      font-size: 15px;
+      font-weight: 400;
+    }
+
+    #container {
+      background-color: hsl(0, 0%, 100%);
+      padding: 15px;
+      width: 300px;
+      border-radius: 20px;
+    }
+
+    img {
+      border-radius: 13px;
+      width: 300px;
+    }
+
+    #text {
+      margin-top: 10px;
+      display: grid;
+      row-gap: 20px;
+      padding: 10px;
+      text-align: center;
+    }
+
+    #bold {
+      font-weight: 700;
+    }
+
+    #light {
+      color: hsl(218, 44%, 22%);
+    }
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div id="container">
+    <img src="./images/image-qr-code.png" alt=" QR code image">
+    <div id="text">
+      <h2 id="bold"> Improve your front-end skills by building projects</h2>
+      <p id="light">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </div>
+  </div>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Jaya Vignesh A</a>.
+  </div>
+</body>
+</html>
